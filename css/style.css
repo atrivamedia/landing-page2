@@ -101,28 +101,72 @@ footer a:hover{
 	text-decoration: none
 }
 
-#mc_embed_signup{
-	background:#1b222a; 
-	clear:left; 
-	font:14px Helvetica,Arial,sans-serif; 
-	width:100%;
-
+form li.focused {
+	background-color: #1b222a !important;
 }
 
-#mc_embed_signup input.button{
-	color: orange;
-	background: #091a2c;
+input.btTxt {
+	background-color: orange !important;
+	border: none;
+	width: 50% !important;
+	color: white !important;
+	height: 50px;
 }
+
+label.desc, legend.desc{
+	font-size:16px !important;
+	color:white !important;
+}
+input#Field0{
+	font-size: 16px;
+	line-height: 24px;
+	margin-left:39% !important;
+	margin: 0px;
+	padding-left:20px !important;
+	width:560px;
+}
+
+input#Field6{
+	font-size: 16px;
+	line-height: 24px;
+	margin-left:39% !important;
+	margin: 0px;
+	padding-left:20px !important;
+	width:560px;
+}
+
+.form-group{
+	margin-bottom:0px !important;
+}
+
 
 /* MEDIA QUERIES*/
 
 @media(max-width: 1200px){
+	input#Field1{
+	margin-left:15% !important;
+	padding-left:20px !important;
+	width:600px !important;
+	}
 
+	input.btTxt {
+	width: 50% !important;
+	}
 }
 
 @media(max-width: 991px){
 	.showcase-img {
 		display: none;
+	}
+
+	input#Field1{
+	margin-left:15% !important;
+	padding-left:20px !important;
+	width:565px;
+	}
+
+	input.btTxt {
+	width: 80% !important;
 	}
 }
 
@@ -143,6 +187,22 @@ footer a:hover{
 	.jumbotron h2{
 		margin-top:10px;
 	}
+
+	input#Field0{
+	margin-left:0 !important;
+	padding-left:20px !important;
+	width:520px;	
+	}
+
+	input#Field6{
+	margin-left:0 !important;
+	padding-left:20px !important;
+	width:520px;	
+	}
+
+	input.btTxt {
+	width: 100% !important;
+	}
 }
 
 @media(max-width: 768px){
@@ -156,6 +216,22 @@ footer a:hover{
 
 	.jumbotron h2{
 		margin-top:10px;
+	}
+
+	input#Field0{
+	margin-left:0 !important;
+	padding-left:20px !important;
+	width:380px;	
+	}
+
+	input#Field6{
+	margin-left:0 !important;
+	padding-left:20px !important;
+	width:380px;	
+	}
+
+	input.btTxt {
+	width: 100% !important;
 	}
 
 }
@@ -175,6 +251,22 @@ footer a:hover{
 		width: 60%;
 		margin:0 auto 30px auto;
 		display:block;
+	}
+
+	input#Field0{
+	margin-left:0 !important;
+	padding-left:20px !important;
+	width:275px;
+	}
+
+	input#Field6{
+	margin-left:0 !important;
+	padding-left:20px !important;
+	width:275px;
+	}
+
+	input.btTxt {
+	width: 100% !important;
 	}
 
 	section#feature ul li {
